@@ -1,6 +1,7 @@
 
 # CRUD de Empresas con Angular, Node.js y MongoDB
-
+Video Funcionamiento
+https://drive.google.com/file/d/1zYOpIDV5EPx5FiLVeLMtOj4waz0Q-8RE/view?usp=sharing
 ![imagen](https://github.com/user-attachments/assets/00a39153-5bf8-4b91-bdbb-3712f6b27ce4)
 
 
