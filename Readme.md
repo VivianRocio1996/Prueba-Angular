@@ -6,6 +6,11 @@
 
 ## Descripción
 Este proyecto consiste en un CRUD (Crear, Leer, Actualizar, Eliminar) de empresas, desarrollado utilizando Angular para el front-end y Node.js con Express para la construcción de la API. Los datos de las empresas se almacenan en MongoDB.
+![imagen](https://github.com/user-attachments/assets/e6f3f034-2f71-4df1-82e9-b1f1ee8b495c)
+![imagen](https://github.com/user-attachments/assets/e38ff7e8-0047-4b31-9d35-3949c2b72a60)
+![imagen](https://github.com/user-attachments/assets/ae33506a-39cf-4475-ab29-5b50297db832)
+![imagen](https://github.com/user-attachments/assets/b2c7f5e5-0472-4617-9329-a3e75d3f6c68)
+
 
 ## Requerimientos del Proyecto
 
