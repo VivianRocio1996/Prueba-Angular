@@ -25,14 +25,21 @@ router.get('/companies', async (req, res) => {
 });
 
 // Actualizar una empresa por ID
+// Actualizar una empresa por ID
 router.put('/companies/:id', async (req, res) => {
   try {
     const updatedCompany = await Company.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    
+    if (!updatedCompany) {
+      return res.status(404).json({ message: 'Empresa no encontrada' });
+    }
+    
     res.json(updatedCompany);
   } catch (error) {
     res.status(400).json({ message: error.message });
   }
 });
+
 
 // Eliminar una empresa por ID
 router.delete('/companies/:id', async (req, res) => {
